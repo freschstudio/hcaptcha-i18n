@@ -88,6 +88,10 @@
                 "information": {
                     "text": "Information",
                     "aria_label": "Get information about hCaptcha."
+                },
+                "text_challenge": {
+                    "text": "Text Challenge",
+                    "aria_label": "Visit this menu entry to open a text challenge which is aimed at accessibility users."
                 }
             },
             "try_again": {
