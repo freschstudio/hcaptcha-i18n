@@ -77,16 +77,13 @@
             },
             "menu": {
                 "accessibility": {
-                    "text": "Accessibility",
-                    "aria_label": "Accessibility. Visit this menu entry to learn how to enable hCaptcha accessibility, which allows you to bypass the challenge via an emailed link."
+                    "text": "Accessibility"
                 },
                 "report_image": {
-                    "text": "Report Image",
-                    "aria_label": "Report an image to hCaptcha."
+                    "text": "Report Image"
                 },
                 "report_bug": {
-                    "text": "Report Bug",
-                    "aria_label": "Report a software bug or issue to hCaptcha."
+                    "text": "Report Bug"
                 },
                 "information": {
                     "text": "Information",
