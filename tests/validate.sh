@@ -6,7 +6,7 @@ find . -not -path './node_modules/*' -not  -path './package*' -type f -name '*.j
 
 # check for HTML entities
 echo "checking for HTML entities"
-grep -RF '&#' languages/ && exit 1
+grep -RE '&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-fA-F]{1,6});' languages/ && exit 1
 
 # key mismatch checks
 echo "checking for mismatched keysets, i.e. missing or superfluous keys"
