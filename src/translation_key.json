@@ -1,5 +1,8 @@
 {
     "checkbox": {
+        "iframe": {
+            "title": "Widget containing checkbox for hCaptcha security challenge"
+        },
         "prompt": {
             "text": "I am human",
             "aria_label": "hCaptcha checkbox. Select in order to trigger the challenge, or to bypass it if you have an accessibility cookie."
@@ -47,6 +50,9 @@
     },
 
     "challenge": {
+        "iframe": {
+            "title": "Main content of the hCaptcha challenge"
+        },
         "interface": {
             "button": {
                 "menu": {
